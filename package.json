@@ -1,0 +1,21 @@
+{
+  "name": "Natours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/gulp build",
+    "start": "http-server ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-sass": "^4.0.2",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.13.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

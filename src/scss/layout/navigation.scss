@@ -18,13 +18,13 @@
         cursor: pointer;
 
         @include respond(tab-port) {
-            height: 4rem;
-            width: 4rem;
+            top: 4rem;
+            right: 4rem;
         }
 
         @include respond(phone) {
-            height: 3rem;
-            width: 3rem;
+            top: 3rem;
+            right: 3rem;
         }
     }
 
@@ -40,13 +40,13 @@
         transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
         
         @include respond(tab-port) {
-            height: 4.5rem;
-            width: 4.5rem;
+            top: 4.5rem;
+            right: 4.5rem;
         }
 
         @include respond(phone) {
-            height: 3.5rem;
-            width: 3.5rem;
+            top: 3.5rem;
+            right: 3.5rem;
         }
     }
 
